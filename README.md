@@ -1,2 +1,8 @@
-# Lyapunov-exponents
-Compute first m largest lyapunov exponents without the Jacobian of the system
+# Lyapunov-spectrum
+
+Jacobian-free implementation for the computation of the first m largest lyapunov exponents and Kaplan-Yorke dimension of a dynamical system. 
+The algorithm requires only the right hand side of the nonlinear governing equations.
+
+The exponents are computed following the orthonormalization algorithm of Benettin et al. (https://doi.org/10.1007/BF02128236). Kaplan-Yorke dimension (https://doi.org/10.1007/BFb0064319).
+
+
