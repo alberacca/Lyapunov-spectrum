@@ -75,11 +75,11 @@ where $||\mathbf{y}_1(t-t_o)||=\epsilon$ and $t=kt_o$. After $N_o$ orthonormaliz
 
 $$
 \begin{aligned}
-  \Lambda_i = \frac{1}{N_\mathrm{o}}\sum_{k=1}^{N_\mathrm{o}}\lambda_i^{(k)}.
+  \Lambda_i = \frac{1}{N_o}\sum_{k=1}^{N_o}\lambda_i^{(k)}.
 \end{aligned}
 $$
 
-The dimensionality of the attractor can then be estimated through the Kaplan-Yorke conjecture,
+The dimensionality of the attractor can then be estimated through the Kaplan-Yorke conjecture, $\mathbf{y}_1$
 
 $$
 \begin{aligned}
