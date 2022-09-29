@@ -87,4 +87,4 @@ $$
 \end{aligned}
 $$
 
-where $\Lambda_i$ are the $j$ largest Lyapunov exponents for which $\sum_{i=1}^{j} \Lambda_i \geq 0$.
+where $\Lambda_i$ are the $j$ largest Lyapunov exponents for which $\sum_{i=1}^{jj} \Lambda_i \geq 0$.
