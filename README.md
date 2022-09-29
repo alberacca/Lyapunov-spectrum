@@ -1,10 +1,4 @@
----
-header-includes:
-  - \usepackage{array}
-  - \usepackage{booktabs}
-  - \usepackage{mathtools}
-  - \usepackage{braket}
----
+
 
 # Lyapunov-spectrum
 
