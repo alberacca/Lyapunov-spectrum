@@ -79,7 +79,7 @@ $$
 \end{aligned}
 $$
 
-The dimensionality of the attractor can then be estimated through the Kaplan-Yorke conjecture, $\mathbf{y}_1$
+The dimensionality of the attractor can then be estimated through the Kaplan-Yorke conjecture,
 
 $$
 \begin{aligned}
