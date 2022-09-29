@@ -9,9 +9,6 @@ The exponents are computed following the orthonormalization algorithm of Benetti
 
 ## Algorithm
 
-
-The algorithm requires the integration of the governing equations $m+1$ times.
-
 We consider a nonlinear autonomous dynamical system in the form of 
 
 $$
@@ -88,3 +85,7 @@ $$
 $$
 
 where $\Lambda_i$ are the $j$ largest Lyapunov exponents for which $\sum_{i=1} \Lambda_i \geq 0$ for $i=1,\cdots,j$.
+
+### Computational cost
+
+To compute the $m$ largest Lyapunov exponents, the algorithm requires the governing equations to be solved $m+1$ times.
