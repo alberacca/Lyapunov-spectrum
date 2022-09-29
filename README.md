@@ -62,7 +62,7 @@ $$
 \end{aligned}
 $$
 
-where $\epsilon \ll 1$ is selected in order for initial condition to be infinitesimal and $\mathbf{y'}_i(t)$ is computed using (2).
+where $\epsilon \ll 1$ is selected in order for initial condition to be infinitesimal and $\mathbf{y'}_i(t)$ is computed using (2). This means that we are solving (1) for $m$ perturbations plus the unperturbed trajectory.
 At each orthonormalization, we store the average exponential growths in the previous $t_o$ interval, so that for the $i$-th direction at the $k$-th orthonormalization we have 
 
 $$
