@@ -46,7 +46,7 @@ $$
 $$
 
 where $||\cdot||$ indicates the $L_2$ norm.
-For long enough times, $t_1 \to \infty$ , any perturbation evolves with the same $\Lambda_1$, the dominant Lyapunov exponent 
+For long enough times, $t_1 \to \infty$ , any perturbation evolves with the same dominant Lyapunov exponent 
 
 $$
 \begin{aligned}
