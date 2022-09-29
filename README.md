@@ -1,5 +1,3 @@
-
-
 # Lyapunov-spectrum
 
 Jacobian-free implementation for the computation of the first m largest lyapunov exponents and Kaplan-Yorke dimension of a dynamical system. 
