@@ -54,9 +54,9 @@ To compute the growth along the $m$ most unstable directions for long times, Ben
 
 $$
 \begin{aligned}
-\mathbf{\tilde{y}}_1(t) &= \frac{\mathbf{y}_1(t)}{||\mathbf{y}_1(t)||} \quad \mathrm{where} \quad \mathbf{y}_1(t-t_o) = \epsilon \mathbf{\tilde{y}}_1(t-t_o), \nonumber \\ 
+    \mathbf{\tilde{y}}_1(t) &= \frac{\mathbf{y}_1(t)}{||\mathbf{y}_1(t)||} \quad \mathrm{where} \quad \mathbf{y}_1(t-t_o) = \epsilon \mathbf{\tilde{y}}_1(t-t_o), \nonumber \\ 
     \vdots &  \nonumber \\
-    \mathbf{\tilde{y}}_i (t) &= \frac{\mathbf{y'}_i(t)}{||\mathbf{y'}_i(t)||}; \quad \mathbf{y'}_i = \mathbf{y}_i - \sum_{j} ^ {i-1}   (\mathbf{y}_i^T\mathbf{\tilde{y}}_j) \mathbf{\tilde{y}}_j \quad \mathrm{where} \quad \mathbf{y}_i(t-t_o) = \epsilon\mathbf{\tilde{y}}_i(t-t_o), \nonumber \\
+    \mathbf{\tilde{y}}_i (t) &= \frac{\mathbf{y'}_i(t)}{||\mathbf{y'}_i(t)||}; \quad \mathbf{y}'_i = \mathbf{y}_i - \sum_{j} ^ {i-1}   (\mathbf{y}_i^T\mathbf{\tilde{y}}_j) \mathbf{\tilde{y}}_j \quad \mathrm{where} \quad \mathbf{y}_i(t-t_o) = \epsilon\mathbf{\tilde{y}}_i(t-t_o), \nonumber \\
     \vdots &  \nonumber \\
 \mathbf{\tilde{y}}_m (t) &= \cdots 
 \end{aligned}
