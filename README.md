@@ -21,6 +21,7 @@ The algorithm requires the integration of the governing equations $m+1$ times.
 We consider a nonlinear autonomous dynamical system in the form of 
 $$
 \begin{aligned}
-  \dot{q} = f(q)
+  \nabla \cdot u &= 0 \\
+  \partial_t u + u \cdot \nabla u &= - \nabla p + \nu \Delta u + f
 \end{aligned}
 $$
