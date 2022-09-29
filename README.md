@@ -83,7 +83,7 @@ The dimensionality of the attractor can then be estimated through the Kaplan-Yor
 
 $$
 \begin{aligned}
-    D_{KY} = j +  \frac{\sum_{i=1} \Lambda_i}{|\Lambda_{j+1}|}
+    D_{KY} = j +  \frac{\sum_i^j \Lambda_i}{|\Lambda_{j+1}|}
 \end{aligned}
 $$
 
