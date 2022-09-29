@@ -37,7 +37,7 @@ $$
 \end{aligned}
 $$
 
-where both elements in the right-hand side are computed by solving (1) with initial conditions equal to $\mathbf{\overline{q}}(t_0)$ and $\mathbf{\overline{q}}(t_0)+\mathbf{y}_i(t_0)$, respectively. The average exponential growth rate for the perturbation $\mathbf{y}_i$ between $t_0$ and $t_1$ is
+where both elements in the right-hand side are computed by solving \eqref{eq1} with initial conditions equal to $\mathbf{\overline{q}}(t_0)$ and $\mathbf{\overline{q}}(t_0)+\mathbf{y}_i(t_0)$, respectively. The average exponential growth rate for the perturbation $\mathbf{y}_i$ between $t_0$ and $t_1$ is
 
 $$
 \tag{3}
