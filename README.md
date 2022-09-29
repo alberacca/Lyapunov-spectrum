@@ -4,7 +4,7 @@ header-includes:
   - \usepackage{booktabs}
   - \usepackage{mathtools}
   - \usepackage{braket}
- ---
+---
 
 # Lyapunov-spectrum
 
@@ -21,6 +21,7 @@ The algorithm requires the integration of the governing equations $m+1$ times.
 We consider a nonlinear autonomous dynamical system in the form of 
 $$
 \begin{aligned}
+\tag{1}
   \mathbf{\dot{q}} = \mathbf{f(q)}
 \end{aligned}
 $$
