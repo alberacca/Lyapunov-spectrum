@@ -7,6 +7,11 @@ The exponents are computed following the orthonormalization algorithm of Benetti
 
 ## Algorithm
 
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
 The algorithm requires the integration of the governing equations $m+1$ times.
 
 We consider a nonlinear autonomous dynamical system in the form of 
