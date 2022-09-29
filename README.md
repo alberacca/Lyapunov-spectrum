@@ -11,6 +11,11 @@ The algorithm requires the integration of the governing equations $m+1$ times.
 
 We consider a nonlinear autonomous dynamical system in the form of 
 $$
+\begin{align}
+  \tag{1.1}
+  \mathbf{\dot{q}} = \mathbf{f(q)}
+\end{align}
+$$
     \mathbf{\dot{q}} = \mathbf{f(q)}
 $$
 where $\mathbf{q}$ is the system's state and $\mathbf{f}$ is a nonlinear operator. In chaotic solutions, the norm of a perturbation $$\mathbf{y}_i$$, such that $\mathbf{\hat{q}}_i = \mathbf{\overline{q}} + \mathbf{y}_i$ with $\mathbf{y}_i \ll 1$, grows in time until nonlinear saturation. For small enough times, $t_1 - t_0$, so that we avoid nonlinear saturation, the evolution of  $\mathbf{y}_i$ can be computed as
