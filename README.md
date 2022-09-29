@@ -84,3 +84,13 @@ $$
   \Lambda_i = \frac{1}{N_\mathrm{o}}\sum_{k=1}^{N_\mathrm{o}}\lambda_i^{(k)}.
 \end{aligned}
 $$
+
+The dimensionality of the attractor can then be estimated through the Kaplan-Yorke conjecture,
+
+$$
+\begin{aligned}
+    N_{KY} = j +  \frac{\sum_{i=1}^j\Lambda_i}{|\Lambda_{j+1}|},
+\end{aligned}
+$$
+
+where $\Lambda_i$ are the $j$ largest Lyapunov exponents for which $\sum_{i=1}^j\Lambda_i\geq0$.
