@@ -40,7 +40,6 @@ $$
 where both elements in the right-hand side are computed by solving (1) with initial conditions equal to $\mathbf{\overline{q}}(t_0)$ and $\mathbf{\overline{q}}(t_0)+\mathbf{y}_i(t_0)$, respectively. The average exponential growth rate for the perturbation $\mathbf{y}_i$ between $t_0$ and $t_1$ is
 
 $$
-\tag{3}
 \begin{aligned}
     \lambda = \frac{1}{t_1 - t_0}\ln\left(\frac{||\mathbf{y}(t_1)||}{||\mathbf{y}(t_0)||}\right),
 \end{aligned}
@@ -50,7 +49,6 @@ where $||\cdot||$ indicates the $L_2$ norm.
 For long enough times, $t_1 \to \infty$ , any perturbation evolves with the same $\Lambda_1$, the dominant Lyapunov exponent 
 
 $$
-\tag{4}
 \begin{aligned}
         \Lambda_1 = \lim_{t_1\to\infty}\frac{1}{t_1-t_0}\ln\left(\frac{||\mathbf{y}(t_1)||}{||\mathbf{y}(t_0)||}\right),
 \end{aligned}
@@ -75,11 +73,11 @@ At each orthonormalization, we store the average exponential growths, so that fo
 
 $$
 \begin{aligned}
-  \lambda_i^{(k)} = \frac{1}{t_{\mathrm{o}}}\ln\left(\frac{||\mathbf{y}_i(t)||}{||\mathbf{y}_i(t-t_{\mathrm{o}})||}\right)
+  \lambda_i^{(k)} = \frac{1}{t_{\mathrm{o}}}\ln\left(\frac{||\mathbf{y}_i(t)||}{||\mathbf{y}_i(t-t_o)||}\right)
 \end{aligned}
 $$
 
-where $||\mathbf{y}_1(t-t_{\mathrm{o}})||=\epsilon$. After $N_\mathrm{o}$ orthonormalizations, the Lyapunov exponents are the average of the stored exponential growths
+where $||\mathbf{y}_1(t-t_o)||=\epsilon$. After $N_o$ orthonormalizations, the Lyapunov exponents are the average of the stored exponential growths
 
 $$
 \begin{aligned}
