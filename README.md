@@ -11,10 +11,8 @@ The exponents are computed following the orthonormalization algorithm of Benetti
 The algorithm requires the integration of the governing equations $m+1$ times.
 
 We consider a nonlinear autonomous dynamical system in the form of 
-
 $$
 \begin{aligned}
-  \nabla \cdot u &= 0 \\
-  \partial_t u + u \cdot \nabla u &= - \nabla p + \nu \Delta u + f
+  \mathbf{\dot{q}} = \mathbf{f(q)}
 \end{aligned}
 $$
