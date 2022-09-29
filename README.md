@@ -69,7 +69,7 @@ $$
 $$
 
 where $\epsilon \ll 1$ is selected in order for initial condition to be infinitesimal and $\mathbf{y'}_i(t)$ is computed using (2).
-At each orthonormalization, we store the average exponential growths, so that for the $i$-th direction at the $k$-th orthonormalization we have 
+At each orthonormalization, we store the average exponential growths in the previous $t_o$ interval, so that for the $i$-th direction at the $k$-th orthonormalization we have 
 
 $$
 \begin{aligned}
