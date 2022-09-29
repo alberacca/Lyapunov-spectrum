@@ -77,7 +77,7 @@ $$
 \end{aligned}
 $$
 
-where $||\mathbf{y}_1(t-t_o)||=\epsilon$. After $N_o$ orthonormalizations, the Lyapunov exponents are the average of the stored exponential growths
+where $||\mathbf{y}_1(t-t_o)||=\epsilon$ and $t=kt_o$. After $N_o$ orthonormalizations, the Lyapunov exponents are the average of the stored exponential growths
 
 $$
 \begin{aligned}
