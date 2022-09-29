@@ -22,6 +22,6 @@ We consider a nonlinear autonomous dynamical system in the form of
 $$
 \begin{aligned}
 \tag{1}
-  \mathbf{\dot{q}} = \mathbf{f(q)}
+  \dot{q} = f(q)
 \end{aligned}
 $$
