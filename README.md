@@ -54,7 +54,7 @@ $$
 \end{aligned}
 $$
 
-as the component along the direction with maximum growth becomes dominant for sufficiently long times. However, due to saturation of the nonlinear equations (or instability of the linearized equations) for finite times, computing $\Lambda$ is not straightforward.
+as the component along the direction with maximum growth becomes dominant for sufficiently long times. However, due to saturation of the nonlinear equations (or instability of the linearized equations) for finite times, computing $\Lambda_1$ is not straightforward.
 
 To compute the growth along the $m$ most unstable directions for long times, Benettin et al. proposed to periodically orthonormalize the evolution of the subspace spanned by $m$ different perturbations. The algorithm works as follows. Every $t_o$, we orthonormalize the $m$ perturbations and compute the future evolution of the orthonormalized basis:
 
