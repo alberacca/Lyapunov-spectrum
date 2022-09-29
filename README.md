@@ -24,5 +24,6 @@ $$
 \begin{aligned}
   \nabla \cdot u &= 0 \\
   \partial_t u + u \cdot \nabla u &= - \nabla p + \nu \Delta u + f
+  \tag{1}
 \end{aligned}
 $$
