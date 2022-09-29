@@ -25,22 +25,32 @@ $$
     \mathbf{\dot{q}} = \mathbf{f(q)}
 \end{aligned}
 \label{eq1}
-\tag{1}
+\tag{1.1}
 $$
 
 where $\mathbf{q}$ is the system's state and $\mathbf{f}$ is a nonlinear operator. In chaotic solutions, the norm of a perturbation $\mathbf{y}_{i}$, such that $\mathbf{\hat{q}}_i = \mathbf{\overline{q}} + \mathbf{y}_i$ with $\mathbf{y}_i \ll 1$, grows in time until nonlinear saturation. For small enough times, $t_1 - t_0$, so that we avoid nonlinear saturation, the evolution of  $\mathbf{y}_i$ can be computed as
 
 $$
-\tag{2}
+\tag{1.2}
 \begin{aligned}
     \mathbf{y}_i (t_1) = \mathbf{\overline{q}}(t_1) - \mathbf{\hat{q}}_i(t_1),
 \end{aligned}
 $$
 
-where both elements in the right-hand side are computed by solving \eqref{eq1} with initial conditions equal to $\mathbf{\overline{q}}(t_0)$ and $\mathbf{\overline{q}}(t_0)+\mathbf{y}_i(t_0)$, respectively. The average exponential growth rate for the perturbation $\mathbf{y}_i$ between $t_0$ and $t_1$ is
+where both elements in the right-hand side are computed by solving (1.1) with initial conditions equal to $\mathbf{\overline{q}}(t_0)$ and $\mathbf{\overline{q}}(t_0)+\mathbf{y}_i(t_0)$, respectively. The average exponential growth rate for the perturbation $\mathbf{y}_i$ between $t_0$ and $t_1$ is
 
 $$
-\tag{3}
+\tag{1.3}
+\begin{aligned}
+    \lambda = \frac{1}{t_1 - t_0}\ln\left(\frac{||\mathbf{y}(t_1)||}{||\mathbf{y}(t_0)||}\right),
+\end{aligned}
+$$
+
+where $||\cdot||$ indicates the $L_2$ norm.
+For long enough times, $t_1 \to \infty$ , any perturbation evolves with the same $\Lambda_1$, the dominant Lyapunov exponent 
+
+$$
+\tag{1.4}
 \begin{aligned}
     \lambda = \frac{1}{t_1 - t_0}\ln\left(\frac{||\mathbf{y}(t_1)||}{||\mathbf{y}(t_0)||}\right),
 \end{aligned}
