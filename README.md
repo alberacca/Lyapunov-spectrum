@@ -64,8 +64,25 @@ $$
 \begin{aligned}
 \mathbf{\tilde{y}}_1(t) &= \frac{\mathbf{y}_1(t)}{||\mathbf{y}_1(t)||} \quad \mathrm{where} \quad \mathbf{y}_1(t-t_o) = \epsilon \mathbf{\tilde{y}}_1(t-t_o), \nonumber \\ 
     \vdots &  \nonumber \\
-    \mathbf{\tilde{y}}_i (t) &= \frac{\mathbf{y'}_i(t)}{||\mathbf{y'}_i(t)||}; \quad \mathbf{y'}_i = \mathbf{y}_i - \sum_{j=1}^{i-1} (\mathbf{y}_i^T\mathbf{\tilde{y}}_j) \mathbf{\tilde{y}}_j \quad \mathrm{where} \quad \mathbf{y}_i(t-to) = \epsilon\mathbf{\tilde{y}}_i(t-t_o), \nonumber \\
+    \mathbf{\tilde{y}}_i (t) &= \frac{\mathbf{y'}_i(t)}{||\mathbf{y'}_i(t)||}; \quad \mathbf{y'}_i = \mathbf{y}_i - \sum_{j=1}^{i-1} (\mathbf{y}_i^T\mathbf{\tilde{y}}_j) \mathbf{\tilde{y}}_j \quad \mathrm{where} \quad \mathbf{y}_i(t-t_o) = \epsilon\mathbf{\tilde{y}}_i(t-t_o), \nonumber \\
     \vdots &  \nonumber \\
 \mathbf{\tilde{y}}_m (t) &= \cdots 
+\end{aligned}
+$$
+
+where $\epsilon \ll 1$ is selected in order for initial condition to be infinitesimal and $\mathbf{y'}_i(t)$ is computed using (2).
+At each orthonormalization, we store the average exponential growths, so that for the $i$-th direction at the $k$-th orthonormalization we have 
+
+$$
+\begin{aligned}
+  \lambda_i^{(k)} = \frac{1}{t_{\mathrm{o}}}\ln\left(\frac{||\mathbf{y}_i(t)||}{||\mathbf{y}_i(t-t_{\mathrm{o}})||}\right)
+\end{aligned}
+$$
+
+where $||\mathbf{y}_1(t-t_{\mathrm{o}})||=\epsilon$. After $N_\mathrm{o}$ orthonormalizations, the Lyapunov exponents are the average of the stored exponential growths
+
+$$
+\begin{aligned}
+  \Lambda_i = \frac{1}{N_\mathrm{o}}\sum_{k=1}^{N_\mathrm{o}}\lambda_i^{(k)}.
 \end{aligned}
 $$
