@@ -24,6 +24,7 @@ $$
 \begin{aligned}
     \mathbf{\dot{q}} = \mathbf{f(q)}
 \end{aligned}
+\label{eq1}
 \tag{1}
 $$
 
