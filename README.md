@@ -13,7 +13,6 @@ $$
 \begin{aligned}
     \mathbf{\dot{q}} = \mathbf{f(q)}
 \end{aligned}
-\label{eq1}
 \tag{1}
 $$
 
@@ -62,7 +61,7 @@ At each orthonormalization, we store the average exponential growths in the prev
 
 $$
 \begin{aligned}
-  \lambda_i^{(k)} = \frac{1}{t_{\mathrm{o}}}\ln\left(\frac{||\mathbf{y}_i(t)||}{||\mathbf{y}_i(t-t_o)||}\right)
+  \lambda_i^{(k)} = \frac{1}{t_{\mathrm{o}}}\ln\left(\frac{||\mathbf{y}'_i(t)||}{||\mathbf{y}_i(t-t_o)||}\right)
 \end{aligned}
 $$
 
